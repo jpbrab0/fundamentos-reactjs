@@ -1,0 +1,22 @@
+.Card {
+    background-color: red;
+    border: 3px solid red;
+    border-radius: 13px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 300px;
+    margin: 10px;
+}
+.Card header{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.Card .content{
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    flex: 1;
+}

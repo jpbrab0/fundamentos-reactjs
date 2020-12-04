@@ -5,7 +5,12 @@ export default ({ max, min }) => {
   var random = Math.floor(Math.random(min) * delta) + min;
   return (
     <>
-      <h3>O número sorteado foi { random }</h3>
+      <section className="result__container">
+        <h2>Valor aleatório</h2>
+        <p>Valor minimo: {min}</p>
+        <p>Valor maximo: {max}</p>
+        <strong>Resultado: {random}</strong>
+      </section>
     </>
   );
 };
